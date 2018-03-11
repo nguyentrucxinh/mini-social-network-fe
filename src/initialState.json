@@ -1,3 +1,108 @@
 {
-    "userProfile": {}
+    "userProfile": {
+        "_id": "58c039018060197ca0b52d1c",
+        "updatedAt": "2018-03-09T10:46:21.303Z",
+        "createdAt": "2018-03-09T10:46:21.302Z",
+        "__v": 0,
+        "lastName": "Nguyen",
+        "firstName": "Xinh",
+        "username": "xinhnguyen",
+        "email": "xinh@mail.com",
+        "password": "$2a$10$eyWiOKpRT6WTZiMtQL1HZuknBf1Jo4nploL/cR/TgwOhKpAFpZW8O",
+        "avatarUrl": "http://www.careerbased.com/themes/comb/img/avatar/default-avatar-male_11.png",
+        "enable": true,
+        "profile": {
+            "_id": "58c039018060197ca0b52d1a",
+            "updatedAt": "2018-03-09T10:46:22.945Z",
+            "createdAt": "2018-03-09T10:46:22.944Z",
+            "__v": 0,
+            "quote": "Men will be men",
+            "studiedAt": "HUTECH University",
+            "livesIn": "Ho Chi Minh City",
+            "maritalStatus": "Single",
+            "followedBy": 0,
+            "github": "nguyentrucxinh",
+            "linkedIn": "nguyentrucxinh",
+            "twitter": "nguyentrucxinh",
+            "website": "nguyentrucxinh.github.io",
+            "user": "58c039018060197ca0b52d1c"
+        },
+        "posts": [
+            {
+                "_id": "58c08bbed1d97c276fd56ce1",
+                "updatedAt": "2018-03-09T10:46:24.353Z",
+                "createdAt": "2018-03-09T10:46:24.353Z",
+                "__v": 0,
+                "content": "This is so funny!",
+                "user": "58c039018060197ca0b52d1c",
+                "likers": [
+                    "58c039018060197ca0b52d2c",
+                    "58c039018060197ca0b52d3c"
+                ],
+                "userLikers": null,
+                "id": "58c08bbed1d97c276fd56ce1"
+            },
+            {
+                "_id": "5aa2b311b232f14d9b7185d2",
+                "updatedAt": "2018-03-09T16:16:16.378Z",
+                "createdAt": "2018-03-09T16:15:13.317Z",
+                "content": "Post 1",
+                "user": "58c039018060197ca0b52d1c",
+                "__v": 1,
+                "likers": [
+                    "58c039018060197ca0b52d1c"
+                ],
+                "userLikers": null,
+                "id": "5aa2b311b232f14d9b7185d2"
+            },
+            {
+                "_id": "5aa33f2e17d98c13f8c1ccf6",
+                "updatedAt": "2018-03-10T02:13:02.739Z",
+                "createdAt": "2018-03-10T02:13:02.739Z",
+                "content": "Post 1",
+                "user": "58c039018060197ca0b52d1c",
+                "__v": 0,
+                "likers": [],
+                "userLikers": null,
+                "id": "5aa33f2e17d98c13f8c1ccf6"
+            },
+            {
+                "_id": "5aa34074d61ca915fa8f11de",
+                "updatedAt": "2018-03-10T02:19:33.400Z",
+                "createdAt": "2018-03-10T02:18:28.408Z",
+                "content": "Post 1",
+                "user": "58c039018060197ca0b52d1c",
+                "__v": 2,
+                "likers": [
+                    "58c039018060197ca0b52d1c",
+                    "58c039018060197ca0b52d1c"
+                ],
+                "userLikers": null,
+                "id": "5aa34074d61ca915fa8f11de"
+            }
+        ],
+        "friends": [
+            {
+                "_id": "58c03ada8060197ca0b52d51",
+                "updatedAt": "2018-03-09T10:46:24.100Z",
+                "createdAt": "2018-03-09T10:46:24.099Z",
+                "__v": 0,
+                "userOneId": "58c039018060197ca0b52d1c",
+                "userTwoId": "58c039018060197ca0b52d2c",
+                "userActionId": "58c039018060197ca0b52d1c",
+                "status": "ACCEPTED"
+            },
+            {
+                "_id": "58c03ada8060197ca0b52d52",
+                "updatedAt": "2018-03-09T10:46:24.100Z",
+                "createdAt": "2018-03-09T10:46:24.100Z",
+                "__v": 0,
+                "userOneId": "58c039018060197ca0b52d1c",
+                "userTwoId": "58c039018060197ca0b52d3c",
+                "userActionId": "58c039018060197ca0b52d1c",
+                "status": "ACCEPTED"
+            }
+        ],
+        "id": "58c039018060197ca0b52d1c"
+    }
 }
