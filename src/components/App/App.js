@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 import Nav from '../Nav/Nav'
 import Home from '../Home/Home'
-import About from '../About/About'
+import Login from '../Login/Login'
 import 'foundation-icons/foundation-icons.css'
 import 'foundation-sites/dist/js/foundation.min.js'
 
@@ -12,8 +12,8 @@ class App extends Component {
     return (
       <div>
         <Nav />
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
+        <Route exact path='/:username' component={Home} />
+        <Route path='/login' component={Login} />
         <Footer />
       </div>
     )

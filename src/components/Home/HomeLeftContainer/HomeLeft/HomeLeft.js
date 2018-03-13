@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HomeLeft = ({ userProfile }) => {
+const HomeLeft = ({ userProfile, username }) => {
   return (
     <div className='col-md-3 col-sm-3'>
       <div className='user-wrapper'>

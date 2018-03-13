@@ -9,7 +9,7 @@ class Home extends Component {
       <div className='container'>
         <Header />
         <div className='row'>
-          <HomeLeftContainer />
+          <HomeLeftContainer username={this.props.match.params.username} />
           <HomeRightContainer />
         </div>
       </div>
