@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HomeLeft = ({ userProfile, username }) => {
+const TimelineLeft = ({ userProfile, username }) => {
   return (
     <div className='col-md-3 col-sm-3'>
       <div className='user-wrapper'>
@@ -67,4 +67,4 @@ const HomeLeft = ({ userProfile, username }) => {
   )
 }
 
-export default HomeLeft
+export default TimelineLeft

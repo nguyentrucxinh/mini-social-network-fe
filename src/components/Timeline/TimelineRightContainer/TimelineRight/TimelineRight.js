@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HomeRight = () => {
+const TimelineRight = () => {
   return (
     <div className='col-md-9 col-sm-9'>
 
@@ -54,4 +54,4 @@ const HomeRight = () => {
   )
 }
 
-export default HomeRight
+export default TimelineRight

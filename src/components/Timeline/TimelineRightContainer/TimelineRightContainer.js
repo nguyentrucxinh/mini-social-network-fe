@@ -1,18 +1,17 @@
-import HomeLeft from './HomeLeft/HomeLeft'
+import TimelineRight from './TimelineRight/TimelineRight'
 import { connect } from 'react-redux'
 
 const mapStateToProps = (state, ownProps) => ({
-  userProfile: state.userProfile,
-  params: ownProps.username
+
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
 
 })
 
-const HomeLeftContainer = connect(
+const TimelineRightContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(HomeLeft)
+)(TimelineRight)
 
-export default HomeLeftContainer
+export default TimelineRightContainer
