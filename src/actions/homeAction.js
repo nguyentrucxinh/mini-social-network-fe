@@ -10,8 +10,8 @@ const receiveUserProfile = userProfile => ({
   }
 })
 
-export const getUserProfile = () => dispatch => {
-  axios.get(GET_USER_PROFILE)
+export const getUserProfile = (username) => dispatch => {
+  axios.get(GET_USER_PROFILE + username)
     .then(response => response.data.content)
     .then(userProfile => {
       dispatch(receiveUserProfile(userProfile))

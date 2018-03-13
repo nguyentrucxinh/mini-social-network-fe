@@ -10,7 +10,7 @@ const TimelineRight = () => {
           <hr />
           <form>
             <div className='form-group'>
-              <label for='comment'>What's on your mind?</label>
+              <label htmlFor='comment'>What's on your mind?</label>
               <textarea className='form-control' rows='5' id='comment' />
             </div>
           </form>
