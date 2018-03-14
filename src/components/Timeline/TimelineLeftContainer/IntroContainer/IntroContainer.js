@@ -1,6 +1,6 @@
-import TimelineLeft from './TimelineLeft/TimelineLeft'
+import Intro from './Intro/Intro'
 import { connect } from 'react-redux'
-import { getUserProfile } from '../../../actions/homeAction'
+import { getUserProfile } from '../../../../actions/homeAction'
 
 const mapStateToProps = (state, ownProps) => ({
   userProfile: state.userProfile
@@ -12,9 +12,9 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
   }
 })
 
-const TimelineLeftContainer = connect(
+const IntroContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(TimelineLeft)
+)(Intro)
 
-export default TimelineLeftContainer
+export default IntroContainer
