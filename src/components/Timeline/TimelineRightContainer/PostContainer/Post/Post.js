@@ -1,20 +1,24 @@
 import React from 'react'
 
-const Post = ({ posts }) => {
+const Post = ({ posts, fullName }) => {
   return (
     <div>
       {posts.map((value, index) =>
-        <div className='user-wrapper'>
+        <div className='user-wrapper' key={value._id}>
           <div className='description'>
-            <h3> Xinh Nguyen - Feb/12/2018 </h3>
+            <h3> {fullName} - {value.updatedAt} </h3>
             <hr />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit egestas eros, ut maximus magna blandit ut. Suspendisse
-              vel molestie sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sit amet
-              egestas dui, vitae tincidunt justo.
-          </p>
-            <button type='button' className='btn btn-primary'>Like</button>
+            <p>{value.content}</p>
+            <button type='button' className='btn btn-primary'>
+              <span className='badge'>{value.likers.length}</span> Like
+            </button>
             <button type='button' className='btn btn-default'>Comment</button>
+
+            <form>
+              <div className='form-group'>
+                <textarea className='form-control' rows='1' id='comment' placeholder='Write a comment...' />
+              </div>
+            </form>
           </div>
         </div>
       )}

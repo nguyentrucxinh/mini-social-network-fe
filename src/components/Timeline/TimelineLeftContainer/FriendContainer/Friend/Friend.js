@@ -8,7 +8,7 @@ const Friend = ({ friends }) => {
         <hr />
         <div className='row'>
           {friends.map((value, index) =>
-            <div className='col-md-4'>
+            <div className='col-md-4' key={value._id}>
               <div className='thumbnail'>
                 <a href='#'>
                   <img src='http://placehold.it/100x100' alt='Lights' />
