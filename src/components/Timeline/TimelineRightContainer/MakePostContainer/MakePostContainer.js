@@ -1,4 +1,4 @@
-import TimelineRight from './TimelineRight/TimelineRight'
+import MakePost from './MakePost/MakePost'
 import { connect } from 'react-redux'
 
 const mapStateToProps = (state, ownProps) => ({
@@ -9,9 +9,9 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
 
 })
 
-const TimelineRightContainer = connect(
+const MakePostContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(TimelineRight)
+)(MakePost)
 
-export default TimelineRightContainer
+export default MakePostContainer

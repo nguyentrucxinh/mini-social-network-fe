@@ -3,7 +3,8 @@ import Header from '../Header/Header'
 import IntroContainer from './TimelineLeftContainer/IntroContainer/IntroContainer'
 import SocialNetworkContainer from './TimelineLeftContainer/SocialNetworkContainer/SocialNetworkContainer'
 import FriendContainer from './TimelineLeftContainer/FriendContainer/FriendContainer'
-import TimelineRightContainer from './TimelineRightContainer/TimelineRightContainer'
+import MakePostContainer from './TimelineRightContainer/MakePostContainer/MakePostContainer'
+import PostContainer from './TimelineRightContainer/PostContainer/PostContainer'
 
 class Timeline extends Component {
   render () {
@@ -18,7 +19,11 @@ class Timeline extends Component {
             <br />
             <FriendContainer />
           </div>
-          <TimelineRightContainer />
+          <div className='col-md-9 col-sm-9'>
+            <MakePostContainer />
+            <br />
+            <PostContainer />
+          </div>
         </div>
       </div>
     )
