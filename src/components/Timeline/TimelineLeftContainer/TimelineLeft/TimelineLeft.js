@@ -47,26 +47,29 @@ class TimelineLeft extends Component {
           <div className='description'>
             <h3> Friends: </h3>
             <hr />
-            <ul className='list-group'>
-              <li className='list-group-item'>
-                <div className='col-sm-6'>
-                  <img src='http://api.randomuser.me/portraits/men/49.jpg' alt='Scott Stevens' className='img-responsive img-circle' />
+            <div className='row'>
+              <div className='col-md-4'>
+                <div className='thumbnail'>
+                  <a href='#'>
+                    <img src='http://api.randomuser.me/portraits/men/49.jpg' alt='Lights' />
+                  </a>
                 </div>
-                <div className='col-sm-6'>
-                  <img src='http://api.randomuser.me/portraits/men/49.jpg' alt='Scott Stevens' className='img-responsive img-circle' />
+              </div>
+              <div className='col-md-4'>
+                <div className='thumbnail'>
+                  <a href='#'>
+                    <img src='http://api.randomuser.me/portraits/men/49.jpg' alt='Nature' />
+                  </a>
                 </div>
-                <div className='clearfix' />
-              </li>
-              <li className='list-group-item'>
-                <div className='col-sm-6'>
-                  <img src='http://api.randomuser.me/portraits/men/49.jpg' alt='Scott Stevens' className='img-responsive img-circle' />
+              </div>
+              <div className='col-md-4'>
+                <div className='thumbnail'>
+                  <a href='#'>
+                    <img src='http://api.randomuser.me/portraits/men/49.jpg' alt='Fjords' />
+                  </a>
                 </div>
-                <div className='col-sm-6'>
-                  <img src='http://api.randomuser.me/portraits/men/49.jpg' alt='Scott Stevens' className='img-responsive img-circle' />
-                </div>
-                <div className='clearfix' />
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
