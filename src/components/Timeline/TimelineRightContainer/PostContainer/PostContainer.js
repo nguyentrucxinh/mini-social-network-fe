@@ -2,7 +2,7 @@ import Post from './Post/Post'
 import { connect } from 'react-redux'
 
 const mapStateToProps = (state, ownProps) => ({
-
+  posts: state.userProfile.posts
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
