@@ -2,7 +2,7 @@ import Friend from './Friend/Friend'
 import { connect } from 'react-redux'
 
 const mapStateToProps = (state, ownProps) => ({
-  userProfile: state.userProfile
+  friends: state.userProfile.friends
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({

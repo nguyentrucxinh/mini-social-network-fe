@@ -2,7 +2,7 @@ import SocialNetwork from './SocialNetwork/SocialNetwork'
 import { connect } from 'react-redux'
 
 const mapStateToProps = (state, ownProps) => ({
-  userProfile: state.userProfile
+  profile: state.userProfile.profile
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({

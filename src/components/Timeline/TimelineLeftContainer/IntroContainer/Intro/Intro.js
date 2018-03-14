@@ -13,7 +13,7 @@ class Intro extends Component {
         <div className='description'>
           <h4> {this.props.userProfile.firstName} {this.props.userProfile.lastName}</h4>
           <h5>
-            <strong> Full-stack JavaScript Developer </strong>
+            <strong> {this.props.userProfile.jobTitle} </strong>
           </h5>
           <p>Quote: {this.props.userProfile.profile.quote}</p>
           <p>Studied at: {this.props.userProfile.profile.studiedAt}</p>
