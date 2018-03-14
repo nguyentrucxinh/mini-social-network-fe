@@ -1,7 +1,6 @@
 import axios from 'axios'
-
 import { FETCH_USER_PROFILE } from '../constants/actionTypes'
-import { GET_USER_PROFILE } from '../constants/api'
+import { HOST_API, GET_USER_PROFILE } from '../constants/api'
 
 const receiveUserProfile = userProfile => ({
   type: FETCH_USER_PROFILE,
@@ -11,7 +10,7 @@ const receiveUserProfile = userProfile => ({
 })
 
 export const getUserProfile = (username) => dispatch => {
-  axios.get(GET_USER_PROFILE + username)
+  axios.get(HOST_API + GET_USER_PROFILE + username)
     .then(response => response.data.content)
     .then(userProfile => {
       dispatch(receiveUserProfile(userProfile))

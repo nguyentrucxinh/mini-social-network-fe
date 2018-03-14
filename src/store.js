@@ -10,6 +10,7 @@ store.subscribe(() => {
   console.log(`%c Store Subscribe: ${store.getState()}`, 'background: #222; color: #bada55')
 })
 
+// Just for testing
 window.store = store
 
 export default store
