@@ -14,6 +14,9 @@ const Post = ({ posts, fullName }) => {
             </button>
             <button type='button' className='btn btn-default'>Comment</button>
 
+            <br />
+            {/* List comments */}
+
             <form>
               <div className='form-group'>
                 <textarea className='form-control' rows='1' id='comment' placeholder='Write a comment...' />
