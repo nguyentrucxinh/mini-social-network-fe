@@ -4,25 +4,24 @@
 
 # STACK
 
-- React
-- Redux
-- Bootstrap 3x (Responsive front-end framework)
+- [React (View layer)](https://reactjs.org/)
+- [Redux (State layer)](https://redux.js.org/)
+- [Bootstrap 3x](https://getbootstrap.com/)
 - [JavaScript Standard Style Guide](https://standardjs.com/)
+- [Heroku](https://www.heroku.com/)
 
 ---
 # HOW TO RUN
 
+- Run:
 ```bash
 npm start
 ```
 
+- Lint:
 ```bash
 npm run lint
 ```
-
-# DEMO
-- https://younet-api.herokuapp.com
-- https://younet.herokuapp.com
 
 ---
 # REFERENCES
